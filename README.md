@@ -33,6 +33,7 @@ The **SPP** file is a binary-based format for saving project data of Simple Pixe
 
 | Name | Type | Information |
 |---|---|---|
+| Project Flags | 16 Bit Flags | Bit flag of this project, (`0b1`: higher color limit) |
 | Author Name Length | UInt8 | Byte length of author name string. |
 | Author Name | UTF-8 Bytes | Length depends on the previous field. |
 | Project Description Length | UInt16 | Byte length of project description string. |
