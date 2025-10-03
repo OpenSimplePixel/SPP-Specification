@@ -82,5 +82,5 @@ The **SPP** file is a binary-based format for saving project data of Simple Pixe
 
 | Name | Type | Information |
 |---|---|---|
-| Flags | 16 Bits | Bit flag of this frame, (`0b1`: is hidden; `0b10`: use UInt16 index) |
+| Flags | 16 Bits | Bit flag of this frame, (`0b1`: is hidden) |
 | Pixel Data | Array of UInt8/UInt16 | Length of the array is **Canvas Width** \* **Canvas Height**. Each pixel's color is the ID of the color index (0\~255 or 0\~65535). |
